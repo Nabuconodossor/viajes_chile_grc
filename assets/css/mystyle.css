@@ -57,6 +57,10 @@ body * {
     margin-bottom: 3rem;
 }
 
+.img-fluid{
+    width: auto;
+    height: 200px;
+}
 
 /*Contacto*/
 
