@@ -1,0 +1,81 @@
+/*Body*/
+
+body * {
+    margin: 0;
+    padding: 0;
+
+    font-family:  'Pushster';
+
+}
+
+/*Navbar*/
+
+.navbar {
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+}
+
+
+/*container*/
+
+/*quienes somos*/
+.quien_somos h2{
+    padding-bottom: 3rem;
+}
+.quien_somos hr{
+    margin-bottom: 3rem;
+    color: rgb(0, 225, 255);
+    
+}
+
+.quien_somos{
+
+    margin-top: 3rem;
+    
+}
+
+.quien_somos div{
+
+    text-align: left;
+} 
+
+
+/*destacados*/
+
+.destacado{
+    margin-top: 3rem;
+
+}
+
+.destacado h2{
+    padding-bottom: 3rem;
+}
+
+.destacado hr{
+    color: rgb(0, 225, 255);
+    margin-bottom: 3rem;
+}
+
+
+/*Contacto*/
+
+.contacto{
+    padding-bottom: 3rem;
+    margin-top: 3rem;
+
+}
+
+.contacto h2, h3{
+    padding-bottom: 3rem;
+}
+
+.contacto hr{
+    color: rgb(0, 225, 255);
+    margin-bottom: 3rem;
+}
+
+
+/*footer*/
+
+
