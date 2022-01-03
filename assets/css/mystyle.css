@@ -1,23 +1,34 @@
 /*Body*/
-
-body * {
+*{
     margin: 0;
     padding: 0;
-
+    box-sizing: border-box;
     font-family:  'Pushster';
+}
+body {
+
+    background-color: #000000;
+    color: white;
+
 
 }
 
 /*Navbar*/
 
-.navbar {
-    width: 100%;
-    position: absolute;
-    z-index: 999;
+header  {
+
+    margin-top: 0px;
+    z-index: 1;
 }
 
+.navbar  {
+    position: absolute;
+    z-index: 2;
+}
+.logo-nav{
+    height: 25px;
+}
 
-/*container*/
 
 /*quienes somos*/
 .quien_somos h2{
@@ -52,11 +63,6 @@ body * {
     padding-bottom: 3rem;
 }
 
-.destacado hr{
-    color: rgb(0, 225, 255);
-    margin-bottom: 3rem;
-}
-
 .img-fluid{
     width: auto;
     height: 200px;
@@ -74,12 +80,16 @@ body * {
     padding-bottom: 3rem;
 }
 
-.contacto hr{
-    color: rgb(0, 225, 255);
-    margin-bottom: 3rem;
-}
 
 
 /*footer*/
 
+.footer-bgc{
+    background-color: cyan !important;
+}
 
+.linea {
+    background-color: cyan;
+    height: 3px;
+    margin: 10px 0;
+}
